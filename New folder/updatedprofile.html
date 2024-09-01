@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Drisya V.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+             margin: 0; 
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .navbar ul li {
+            padding: 14px 20px;
+    
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #010911;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+
+        img {
+            margin-bottom: 20px;
+            border-radius: 50%;
+        }
+
+        p,
+        ul {
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        h3,
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #01060b;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "•";
+            color: #010810;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .navbar ul {
+                flex-direction: column;
+            }
+
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#linkedin">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <img src="/New folder/img/1724080344237.jpg" alt="Profile Photo" style="width:150px;height:150px;">
+        <h1>Drisya V.</h1>
+        <p><b>Address:</b> Vazhavila Veedu, Mukkada, Parippally PO, Kollam</p>
+
+        <h3 id="about">About Myself</h3>
+        <p>I am Drisya V., a B.Tech graduate in Electronics and Communication from the College of Engineering, Attingal. I am currently pursuing full-stack development.</p>
+
+        <h2 id="education">Education</h2>
+        <ul>
+            <li>B.Tech in Electronics and Communication - College of Engineering, Attingal (2024)</li>
+            <li>Higher Secondary Education in Biology Science - ASHSS, Paripally, Kollam (2020)</li>
+            <li>Secondary Education - ASHSS, Paripally, Kollam (2018)</li>
+        </ul>
+
+        <h2 id="linkedin">LinkedIn</h2>
+        <p>
+            <a href="https://www.linkedin.com/in/drisya-v-ab8b61255" target="_blank">LinkedIn Profile</a>
+        </p>
+    </div>
+</body>
+
+</html>
